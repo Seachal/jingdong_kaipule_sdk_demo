@@ -1,0 +1,64 @@
+println "demo_1： $name  ";
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '26.0.2'
+
+    defaultConfig {
+        applicationId "com.example.sdkdemo"
+        minSdkVersion 14
+        targetSdkVersion 26
+        versionCode 229
+        versionName "2.2.3"
+
+    }
+
+    signingConfigs {
+        release {
+            storeFile file('debug.keystore')
+            storePassword "android"
+            keyAlias "androiddebugkey"
+            keyPassword "android"
+        }
+        debug {
+            storeFile file('debug.keystore')
+            storePassword "android"
+            keyAlias "androiddebugkey"
+            keyPassword "android"
+        }
+    }
+
+    buildTypes {//这样其实导致了多次签名的问题，如果需要ide的签名，需要将编译签名去掉
+
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
+            zipAlignEnabled true
+        }
+
+        debug {
+            signingConfig signingConfigs.debug
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
+        }
+    }
+
+
+    compileOptions {
+        targetCompatibility JavaVersion.VERSION_1_7
+        sourceCompatibility JavaVersion.VERSION_1_7
+    }
+    dexOptions {
+        incremental true
+    }
+}
+
+
+dependencies {
+    compile 'com.android.support:design:26.0.2'
+    compile project(':jdsdk_lib')
+}
+
+println "demo_end： $name"

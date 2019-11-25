@@ -1,0 +1,42 @@
+println "lib_start： $name"
+apply plugin: 'com.android.library'
+
+android {
+    //（更高的编译器版本，向低版本兼容的能力是逐步增强的，建议及时跟进）
+    buildToolsVersion '26.0.2'
+    compileSdkVersion 26
+
+    defaultConfig {
+        //请谨慎修改该配置，SDK在这个环境下经过了多流程测试
+        // 不保证在更高的版本下兼容性良好 ，已知如：（比如：在Android5.0 下https，http页面兼容需代码级兼容）（phone权限申请兼容）
+        //请使用独立module工程编译（尤其是多module 版本目标不同的情况下）
+        minSdkVersion 14
+        //（升级该配置，带来AndroidAPI的更新，需在严格的全面用例测试  需要error级别的容错）
+        //(SDK 主要涉及webivew，在更高版本（25）开发测试中，发现向低版本兼容能力在各厂商之间差别较大，暂时稳定在19)
+        targetSdkVersion 26
+    }
+
+
+    buildTypes {
+        release {
+//            minifyEnabled false
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets{
+        main{
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_6
+        targetCompatibility JavaVersion.VERSION_1_6
+    }
+}
+
+dependencies {
+    compile files('libs/cps_1.0.0.jar')
+    compile files('libs/JDSDK_h.jar')
+}
+
+println "Lib_end： $name"

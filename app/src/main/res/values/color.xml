@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffffff</color>
+    <color name="category_txt">#ebebeb</color>
+    <color name="all_bg">#f5f5f5</color>
+    <color name="black">#000000</color>
+    <color name="listview_divider">#F0F0F0</color>
+    <color name="gray">#FFCCCCCC</color>
+    <color name="red">#F94d4d</color>
+    <color name="yellow">#FFA500</color>
+    
+    <!-- 我的 -->
+    <color name="my_personal_login_textcolor">#754614</color>
+    <color name="my_personal_login_shadow_color">#996b3d</color>
+    <color name="my_personal_label_bg">#88000000</color>
+    <color name="my_personal_label_pressed_bg">#33000000</color>
+    <color name="my_personal_title">#9d9ab0</color>
+    <drawable name="none">#00000000</drawable>
+<!-- 搜索 -->
+    <color name="search_empty">#FF6e6f6f</color>
+    <color name="product_list_bg_color">#f1f2f3</color>
+    <color name="del_search_history_textcolor">#606060</color>
+	<color name="del_search_history_strokecolor">#d8d9d9</color>
+	<color name="search_history_textcolor">#4e4e4e</color>
+	    <!-- 列表项被点击时高亮效果 -->
+    <drawable name="list_row_pressed">#FFEEEEEE</drawable>
+
+    <color name="none">#00000000</color>
+    <color name="chose_item_bg_selected">#f95b5b</color>
+    
+    <color name="popup_main_background">#b0000000</color>
+    <color name="popup_main_background_chaohui">#404040</color>
+    <color name="choose_eara_item_press_color">#f4f4f4</color>
+    <color name="category_parent_item_press_color">#f5f5f5</color>
+    <color name="header_normal">#ffe74c3c</color>
+    <color name="header_pressed">#ffc0392b</color>
+    <color name="header_divide_line">#D0D0D0</color>
+    <color name="header_divide_line_deep">#DDDDDD</color>
+    <color name="chaohuiblack">#333333</color>
+     <color name="chaohuired">#f94d4d</color>
+     <color name="chaohuiblacknum">#868686</color>
+    <color name="dapai_item_discount_bg">#933045</color>
+    <color name="dapai_list_item">#3197FF</color>
+    <color name="chaohui_menu_divider">#666666</color>
+    <color name="chaohui_info_text">#666666</color>
+    <color name="chaohui_price_text">#cccccc</color>
+        <!--搜索-->
+    <color name="search_title_text_color">#474646</color>
+     
+    <color name="search_title_hint_text_color">#b6b6b6</color>
+     <!--生活 -->
+     <color name="shenghuo_left_buuton_bg">#f5f5f5</color>
+     <color name="shenghuo_left_text_color">#FF0000</color>
+     <color name="shenghuo_right_text_color">#ececec</color>
+     <color name="shenghuo_line_color">#e7e7e7</color>
+      <color name="shenghuo_list_select">#ececec</color>
+</resources>

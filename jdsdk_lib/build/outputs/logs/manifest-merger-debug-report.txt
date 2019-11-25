@@ -1,0 +1,51 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml:1:1-23:12
+INJECTED from /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml:1:1-23:12
+INJECTED from /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml:1:1-23:12
+	package
+		ADDED from /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml:2:5-27
+		INJECTED from /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml
+		INJECTED from /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml:1:12-70
+application
+ADDED from /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml:5:5-19:19
+	android:allowBackup
+		ADDED from /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml:6:9-35
+activity#com.kepler.jd.sdk.KeplerBackActivity
+ADDED from /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml:9:9-18:20
+	android:exported
+		ADDED from /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml:11:13-36
+	android:theme
+		ADDED from /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml:12:13-61
+	android:name
+		ADDED from /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml:10:13-64
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:scheme:sdkback7ac94770f7574f00a401657d8c9ac40d
+ADDED from /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.VIEW
+ADDED from /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml:15:17-76
+	android:name
+		ADDED from /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml:15:27-73
+data
+ADDED from /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml:16:17-82
+	android:scheme
+		ADDED from /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml:16:23-79
+uses-sdk
+INJECTED from /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml
+INJECTED from /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml
+INJECTED from /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml
+INJECTED from /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml
+		ADDED from /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml
+		INJECTED from /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml
+		ADDED from /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml
+		INJECTED from /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml

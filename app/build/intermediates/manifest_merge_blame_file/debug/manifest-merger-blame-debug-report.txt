@@ -1,0 +1,173 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!-- 请修改到您的 package name -->
+3<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+4    xmlns:tools="http://schemas.Android.com/tools"
+5    package="com.example.sdkdemo"
+6    android:versionCode="229"
+7    android:versionName="2.2.3" >
+8
+9    <uses-sdk
+10        android:minSdkVersion="14"
+10-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml
+11        android:targetSdkVersion="26" />
+11-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml
+12
+13    <!-- 网络 状态变化等信息 -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:77:5-67
+14-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:77:22-64
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:78:5-76
+15-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:78:22-73
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:79:5-79
+16-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:79:22-76
+17
+18    <!-- 静态化资源 -->
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:82:5-80
+19-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:82:22-77
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:83:5-81
+20-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:83:22-78
+21
+22    <application
+22-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:10:5-74:19
+23        android:name="com.example.kepler.jd.sdkdemo.MyApplication"
+23-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:11:9-67
+24        android:allowBackup="true"
+24-->[:jdsdk_lib] /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:18-44
+25        android:debuggable="true"
+26        android:icon="@drawable/ic_launcher"
+26-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:12:9-45
+27        android:label="@string/app_name"
+27-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:13:9-41
+28        android:largeHeap="true"
+28-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:14:9-33
+29        android:testOnly="true"
+30        android:theme="@android:style/Theme.NoTitleBar"
+30-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:15:9-56
+31        tools:replace="android:icon, android:theme" >
+31-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:16:9-52
+32
+33        <!-- 测试demo -->
+34        <activity
+34-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:20:9-31:20
+35            android:name="com.example.kepler.jd.sdkdemo.StartActivityForSDK"
+35-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:21:13-77
+36            android:configChanges="orientation|keyboard"
+36-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:22:13-57
+37            android:label="@string/app_name"
+37-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:23:13-45
+38            android:windowSoftInputMode="stateHidden|stateUnchanged" >
+38-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:25:13-69
+39            <intent-filter>
+39-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:26:13-30:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:27:17-69
+40-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:27:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:29:17-77
+42-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:29:27-74
+43            </intent-filter>
+44        </activity>
+45        <activity
+45-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:32:9-34:61
+46            android:name="com.example.kepler.jd.sdkdemo.WebAvtivity4Test"
+46-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:33:13-74
+47            android:screenOrientation="portrait" />
+47-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:34:13-49
+48
+49        <!-- 需要添加 -->
+50        <activity
+50-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:37:9-52:20
+51            android:name="com.kepler.jd.login.AuthSuccessActivity"
+51-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:38:13-67
+52            android:exported="true"
+52-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:39:13-36
+53            android:screenOrientation="portrait" >
+53-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:40:13-49
+54            <intent-filter android:priority="0x7FFFFFFF" >
+54-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:42:13-49:29
+54-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:42:28-57
+55                <action android:name="android.intent.action.VIEW" />
+55-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:43:17-69
+55-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:43:25-66
+56
+57                <category android:name="android.intent.category.DEFAULT" />
+57-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:45:17-76
+57-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:45:27-73
+58                <category android:name="android.intent.category.BROWSABLE" />
+58-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:46:17-78
+58-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:46:27-75
+59            </intent-filter>
+60        </activity>
+61        <!-- 201版本添加 -->
+62        <activity
+62-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:54:9-58:76
+63            android:name="com.kepler.jd.sdk.KeplerMidActivity"
+63-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:55:13-63
+64            android:screenOrientation="portrait"
+64-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:56:13-49
+65            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+65-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:57:13-83
+66            android:windowSoftInputMode="adjustPan|stateHidden" />
+66-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:58:13-64
+67        <activity
+67-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:60:9-65:20
+68            android:name="com.kepler.jd.sdk.WebViewActivity"
+68-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:61:13-61
+69            android:hardwareAccelerated="true"
+69-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:62:13-47
+70            android:screenOrientation="portrait"
+70-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:63:13-49
+71            android:windowSoftInputMode="adjustResize|stateHidden" >
+71-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:64:13-67
+72        </activity>
+73
+74        <!-- 使用Fragment的案例 -->
+75        <activity android:name="com.example.kepler.jd.sdkdemo.fragment.WebViewFragmentActivity" >
+75-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:68:9-69:20
+75-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:68:19-96
+76        </activity>
+77        <!-- Tab使用Fragment的案例 -->
+78        <activity
+78-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:71:9-72:75
+79            android:name="com.example.kepler.jd.sdkdemo.fragment.TabFragmentActivity"
+79-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:71:19-92
+80            android:theme="@style/Theme.AppCompat.NoActionBar" />
+80-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:72:13-63
+81
+82        <meta-data
+82-->[com.android.support:design:26.0.2] /Users/seachal/.gradle/caches/transforms-2/files-2.1/9d8daaa382ad5dc39102a3a36c3f1039/design-26.0.2/AndroidManifest.xml:26:9-28:38
+83            android:name="android.support.VERSION"
+83-->[com.android.support:design:26.0.2] /Users/seachal/.gradle/caches/transforms-2/files-2.1/9d8daaa382ad5dc39102a3a36c3f1039/design-26.0.2/AndroidManifest.xml:27:13-51
+84            android:value="26.0.2" /> <!-- 直接回呼 -->
+84-->[com.android.support:design:26.0.2] /Users/seachal/.gradle/caches/transforms-2/files-2.1/9d8daaa382ad5dc39102a3a36c3f1039/design-26.0.2/AndroidManifest.xml:28:13-35
+85        <activity
+85-->[:jdsdk_lib] /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-23:20
+86            android:name="com.kepler.jd.sdk.KeplerBackActivity"
+86-->[:jdsdk_lib] /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-64
+87            android:exported="true"
+87-->[:jdsdk_lib] /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-36
+88            android:theme="@android:style/Theme.Translucent" >
+88-->[:jdsdk_lib] /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-61
+89            <intent-filter>
+89-->[:jdsdk_lib] /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-22:29
+90                <action android:name="android.intent.action.VIEW" />
+90-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:43:17-69
+90-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:43:25-66
+91
+92                <category android:name="android.intent.category.DEFAULT" />
+92-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:45:17-76
+92-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/src/main/AndroidManifest.xml:45:27-73
+93
+94                <data android:scheme="sdkback7ac94770f7574f00a401657d8c9ac40d" />
+94-->[:jdsdk_lib] /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:17-82
+94-->[:jdsdk_lib] /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:23-79
+95            </intent-filter>
+96        </activity>
+97    </application>
+98
+99</manifest>

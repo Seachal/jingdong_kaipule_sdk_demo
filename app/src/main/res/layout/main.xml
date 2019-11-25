@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/show_jar_time_for_dev"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF6347"
+            android:textSize="10sp"
+            android:visibility="gone" />
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="设置参数:"
+            android:textColor="#4169E1"
+            android:textSize="10sp" />
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/qb_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="设置(qb版本使用)" />
+
+            <EditText
+                android:id="@+id/test_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/qb_button"
+                android:textSize="10sp" />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="全局类参数:"
+            android:textColor="#4169E1"
+            android:textSize="10sp" />
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/setting_appkey2_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="设置appkey2" />
+
+            <EditText
+                android:id="@+id/setting_appkey2_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/setting_appkey2_button"
+                android:text="70CFBB7849979E780CE6DA21F227EC03"
+                android:textSize="10sp" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/setting_art_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="设置 内容ID" />
+
+            <EditText
+                android:id="@+id/setting_crt_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/setting_art_button"
+                android:text="2"
+                android:textSize="10sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/setting_etc_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="设置 内容渠道扩展字段" />
+
+            <EditText
+                android:id="@+id/setting_etc_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/setting_etc_button"
+                android:text="25"
+                android:textSize="10sp" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/setting_JDappBackTagID_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="设置app返回标签" />
+
+            <!--android:text="jd20170310sjbd1"-->
+            <EditText
+                android:id="@+id/setting_JDappBackTagID_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/setting_JDappBackTagID_button"
+                android:text="jd20170906sdkceshi"
+
+                android:textSize="10sp" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="页面性参数:"
+            android:textColor="#4169E1"
+            android:textSize="10sp" />
+
+        <!-- ====================================== -->
+        <!-- //$$isInJDMode&&+{..{ -->
+<!-- $$isInJDMode&&        <RelativeLayout$$isInJDMode&& -->
+<!-- $$isInJDMode&&            android:layout_width="fill_parent"$$isInJDMode&& -->
+<!-- $$isInJDMode&&            android:layout_height="wrap_content">$$isInJDMode&& -->
+<!-- $$isInJDMode&&$$isInJDMode&& -->
+<!-- $$isInJDMode&&            <Button$$isInJDMode&& -->
+<!-- $$isInJDMode&&                android:id="@+id/setting_injd_Mopenbp_button"$$isInJDMode&& -->
+<!-- $$isInJDMode&&                android:layout_width="wrap_content"$$isInJDMode&& -->
+<!-- $$isInJDMode&&                android:layout_height="wrap_content"$$isInJDMode&& -->
+<!-- $$isInJDMode&&                android:layout_alignParentRight="true"$$isInJDMode&& -->
+<!-- $$isInJDMode&&                android:text="设置mopenbp" />$$isInJDMode&& -->
+<!-- $$isInJDMode&&$$isInJDMode&& -->
+<!-- $$isInJDMode&&            <EditText$$isInJDMode&& -->
+<!-- $$isInJDMode&&                android:id="@+id/setting_Mopenbp_index_edit"$$isInJDMode&& -->
+<!-- $$isInJDMode&&                android:layout_width="40dp"$$isInJDMode&& -->
+<!-- $$isInJDMode&&                android:layout_height="wrap_content"$$isInJDMode&& -->
+<!-- $$isInJDMode&&                android:layout_alignParentLeft="true"$$isInJDMode&& -->
+<!-- $$isInJDMode&&                android:hint="mopenbp_index"$$isInJDMode&& -->
+<!-- $$isInJDMode&&                android:inputType="number"$$isInJDMode&& -->
+<!-- $$isInJDMode&&                android:text="4"$$isInJDMode&& -->
+<!-- $$isInJDMode&&                android:textSize="10sp" />$$isInJDMode&& -->
+<!-- $$isInJDMode&&$$isInJDMode&& -->
+<!-- $$isInJDMode&&            <EditText$$isInJDMode&& -->
+<!-- $$isInJDMode&&                android:id="@+id/setting_Mopenbp_edit"$$isInJDMode&& -->
+<!-- $$isInJDMode&&                android:layout_width="wrap_content"$$isInJDMode&& -->
+<!-- $$isInJDMode&&                android:layout_height="wrap_content"$$isInJDMode&& -->
+<!-- $$isInJDMode&&                android:layout_toLeftOf="@id/setting_injd_Mopenbp_button"$$isInJDMode&& -->
+<!-- $$isInJDMode&&                android:layout_toRightOf="@id/setting_Mopenbp_index_edit"$$isInJDMode&& -->
+<!-- $$isInJDMode&&                android:text="test_mopenbp"$$isInJDMode&& -->
+<!-- $$isInJDMode&&$$isInJDMode&& -->
+<!-- $$isInJDMode&&                android:textSize="10sp" />$$isInJDMode&& -->
+<!-- $$isInJDMode&&$$isInJDMode&& -->
+<!-- $$isInJDMode&&$$isInJDMode&& -->
+<!-- $$isInJDMode&&        </RelativeLayout>$$isInJDMode&& -->
+<!-- $$isInJDMode&&$$isInJDMode&& -->
+        <!-- //$$isInJDMode&&+}..} -->
+        <!-- ====================================== -->
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/setting_positionId_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="设置positionId" />
+
+            <EditText
+                android:id="@+id/setting_positionId_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:layout_toLeftOf="@id/setting_positionId_button"
+                android:text="test_positionId"
+                android:textSize="10sp" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/setting_customerInfo_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="设置customerInfo" />
+
+            <EditText
+                android:id="@+id/setting_customerInfo_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/setting_customerInfo_button"
+                android:text="test_ustomerInfo"
+                android:textSize="10sp" />
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/show_customerInfo_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="展示customerInfo" />
+
+            <Button
+                android:id="@+id/clear_customerInfo_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/show_customerInfo_button"
+                android:text="清除customerInfo" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <ToggleButton
+                android:id="@+id/setting_forceH5_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textOff="不使用"
+                android:textOn="使用" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_toLeftOf="@id/setting_forceH5_button"
+                android:gravity="left"
+                android:text="是否强制使用H5页面：(已经不推荐使用)"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="运营页面:"
+            android:textColor="#4169E1"
+            android:textSize="10sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/home_page"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="m首页" />
+
+            <Button
+                android:id="@+id/home_page_app"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="app模式" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/out_page"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="外部链接" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/list_page"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="导航分类页" />
+
+
+            <Button
+                android:id="@+id/list_page_app"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="app模式" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/open_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="打开一级分类页面（随机选项）" />
+
+            <Button
+                android:id="@+id/open_category_app"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="app模式" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="api:"
+            android:textColor="#4169E1"
+            android:textSize="10sp" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/url_to_app"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="app" />
+
+            <Button
+                android:id="@+id/url_to"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/url_to_app"
+                android:text="开普勒" />
+
+            <Button
+                android:id="@+id/url_to_web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/url_to"
+                android:text="web" />
+
+            <EditText
+                android:id="@+id/url_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/url_to_web"
+                android:hint="输入url"
+                android:lines="1"
+                android:textSize="10sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/serch_for_app"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="app模式" />
+
+            <Button
+                android:id="@+id/serch_for"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/serch_for_app"
+                android:text="search" />
+
+            <EditText
+                android:id="@+id/serch_key_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/serch_for"
+                android:text="小米5"
+                android:lines="1" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/item_detail_app"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+
+                android:text="app模式" />
+
+            <Button
+                android:id="@+id/item_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/item_detail_app"
+                android:text="商品SKU详情页" />
+
+            <EditText
+                android:id="@+id/item_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/item_detail"
+                android:hint="2857483"
+                android:lines="1"
+                android:textSize="10sp" />
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/url_detail_union"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="开普勒计费 union(不再推荐使用)" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/sku_add_lin" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/addSKU2cart"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="将SKU（数量）添加到购物车" />
+
+
+                <Button
+                    android:id="@+id/addSKU2cart_openOrderConfirmationPage"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="将SKU（ 数量）添加到购物车并打开结算页面"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="一键将SKU添加到购物车"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="skuId："/>
+                <EditText
+                    android:id="@+id/et_skuid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="335162"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="unionId："/>
+                <EditText
+                    android:id="@+id/et_unionid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1000604965"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="webId："/>
+                <EditText
+                    android:id="@+id/et_webid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="44492363307"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="refer："/>
+                <EditText
+                    android:id="@+id/et_refer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="refer"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/addSKUToCart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="将单个SKU添加到购物车"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="个人:"
+            android:textColor="#4169E1"
+            android:textSize="10sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/get_order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="个人订单页" />
+
+
+            <Button
+                android:id="@+id/get_order_app"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="app模式" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/get_afterSale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="个人售后页面" />
+
+
+            <Button
+                android:id="@+id/get_afterSale_app"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="app模式" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/get_cart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="个人购物车页" />
+
+            <Button
+                android:id="@+id/get_cart_app"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="app模式" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/login_lin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="invisible">
+
+            <Button
+                android:id="@+id/show_token"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="是否登录" />
+
+            <Button
+                android:id="@+id/url_auth"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="清除登录状态" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="直接登录" />
+        <Button
+            android:id="@+id/btn_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="打开Fragment案例"/>
+        <Button
+            android:id="@+id/btn_tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="打开多个Fragment案例"/>
+
+    </LinearLayout>
+
+</ScrollView>

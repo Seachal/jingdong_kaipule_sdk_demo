@@ -1,0 +1,24 @@
+buildscript {
+    repositories {
+        jcenter()
+        google()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.5.2'
+    }
+}
+allprojects {
+    repositories {
+        jcenter()
+        google()
+    }
+}
+
+ext{
+    project_version_name = '2.2.4'
+    project_version_code = 242
+}
+
+
+
+

@@ -1,0 +1,41 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.jd.jdsdk" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="14"
+6-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="26" />
+7-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml
+8
+9    <application android:allowBackup="true" >
+9-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml:5:5-19:19
+9-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml:6:9-35
+10
+11        <!-- 直接回呼 -->
+12        <activity
+12-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml:9:9-18:20
+13            android:name="com.kepler.jd.sdk.KeplerBackActivity"
+13-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml:10:13-64
+14            android:exported="true"
+14-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml:11:13-36
+15            android:theme="@android:style/Theme.Translucent" >
+15-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml:12:13-61
+16            <intent-filter>
+16-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml:13:13-17:29
+17                <action android:name="android.intent.action.VIEW" />
+17-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml:14:17-69
+17-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml:14:25-66
+18
+19                <category android:name="android.intent.category.DEFAULT" />
+19-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml:15:17-76
+19-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml:15:27-73
+20
+21                <data android:scheme="sdkback7ac94770f7574f00a401657d8c9ac40d" />
+21-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml:16:17-82
+21-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/src/main/AndroidManifest.xml:16:23-79
+22            </intent-filter>
+23        </activity>
+24    </application>
+25
+26</manifest>

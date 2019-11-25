@@ -1,0 +1,60 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.jd.jdsdk.test" >
+4
+5    <uses-sdk
+5-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger777102218862775858.xml:5:5-74
+6        android:minSdkVersion="14"
+6-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger777102218862775858.xml:5:15-41
+7        android:targetSdkVersion="26" />
+7-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger777102218862775858.xml:5:42-71
+8
+9    <instrumentation
+9-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger777102218862775858.xml:11:5-15:67
+10        android:name="android.test.InstrumentationTestRunner"
+10-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger777102218862775858.xml:11:22-75
+11        android:functionalTest="false"
+11-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger777102218862775858.xml:14:22-52
+12        android:handleProfiling="false"
+12-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger777102218862775858.xml:13:22-53
+13        android:label="Tests for com.jd.jdsdk.test"
+13-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger777102218862775858.xml:15:22-65
+14        android:targetPackage="com.jd.jdsdk.test" />
+14-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger777102218862775858.xml:12:22-63
+15
+16    <application
+16-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger777102218862775858.xml:7:5-9:19
+17        android:allowBackup="true"
+17-->[__tested_artifact__::jdsdk_lib] /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:18-44
+18        android:debuggable="true" >
+18-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger777102218862775858.xml:7:18-43
+19        <uses-library android:name="android.test.runner" />
+19-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger777102218862775858.xml:8:9-60
+19-->/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger777102218862775858.xml:8:23-57
+20        <!-- 直接回呼 -->
+21        <activity
+21-->[__tested_artifact__::jdsdk_lib] /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-23:20
+22            android:name="com.kepler.jd.sdk.KeplerBackActivity"
+22-->[__tested_artifact__::jdsdk_lib] /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-64
+23            android:exported="true"
+23-->[__tested_artifact__::jdsdk_lib] /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-36
+24            android:theme="@android:style/Theme.Translucent" >
+24-->[__tested_artifact__::jdsdk_lib] /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-61
+25            <intent-filter>
+25-->[__tested_artifact__::jdsdk_lib] /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-22:29
+26                <action android:name="android.intent.action.VIEW" />
+26-->[__tested_artifact__::jdsdk_lib] /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-69
+26-->[__tested_artifact__::jdsdk_lib] /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:25-66
+27
+28                <category android:name="android.intent.category.DEFAULT" />
+28-->[__tested_artifact__::jdsdk_lib] /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-76
+28-->[__tested_artifact__::jdsdk_lib] /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:27-73
+29
+30                <data android:scheme="sdkback7ac94770f7574f00a401657d8c9ac40d" />
+30-->[__tested_artifact__::jdsdk_lib] /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:17-82
+30-->[__tested_artifact__::jdsdk_lib] /Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/jdsdk_lib/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:23-79
+31            </intent-filter>
+32        </activity>
+33    </application>
+34
+35</manifest>

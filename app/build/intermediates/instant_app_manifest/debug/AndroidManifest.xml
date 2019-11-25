@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 请修改到您的 package name -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.Android.com/tools"
+    package="com.example.sdkdemo"
+    android:targetSandboxVersion="2"
+    android:versionCode="229"
+    android:versionName="2.2.3" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="26" />
+
+    <!-- 网络 状态变化等信息 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- 静态化资源 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.example.kepler.jd.sdkdemo.MyApplication"
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:testOnly="true"
+        android:theme="@android:style/Theme.NoTitleBar"
+        tools:replace="android:icon, android:theme" >
+
+        <!-- 测试demo -->
+        <activity
+            android:name="com.example.kepler.jd.sdkdemo.StartActivityForSDK"
+            android:configChanges="orientation|keyboard"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden|stateUnchanged" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.kepler.jd.sdkdemo.WebAvtivity4Test"
+            android:screenOrientation="portrait" />
+
+        <!-- 需要添加 -->
+        <activity
+            android:name="com.kepler.jd.login.AuthSuccessActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" >
+            <intent-filter android:priority="0x7FFFFFFF" >
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+        <!-- 201版本添加 -->
+        <activity
+            android:name="com.kepler.jd.sdk.KeplerMidActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.kepler.jd.sdk.WebViewActivity"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+        </activity>
+
+        <!-- 使用Fragment的案例 -->
+        <activity android:name="com.example.kepler.jd.sdkdemo.fragment.WebViewFragmentActivity" >
+        </activity>
+        <!-- Tab使用Fragment的案例 -->
+        <activity
+            android:name="com.example.kepler.jd.sdkdemo.fragment.TabFragmentActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.0.2" /> <!-- 直接回呼 -->
+        <activity
+            android:name="com.kepler.jd.sdk.KeplerBackActivity"
+            android:exported="true"
+            android:theme="@android:style/Theme.Translucent" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="sdkback7ac94770f7574f00a401657d8c9ac40d" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
