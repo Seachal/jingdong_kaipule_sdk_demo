@@ -1,4 +1,4 @@
-#Sat Nov 23 15:40:40 CST 2019
+#Thu Nov 28 11:57:47 CST 2019
 base.0=/Users/seachal/Documents/SeachalGit/Android/jingdongkaipule_SDKDemo_Android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

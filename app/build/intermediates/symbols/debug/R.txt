@@ -1121,7 +1121,7 @@ int layout dialogloading 0x7f0a002b
 int layout item_tab_layout 0x7f0a002c
 int layout kepler_mid_lin 0x7f0a002d
 int layout kepler_simple_dialog_lay 0x7f0a002e
-int layout main 0x7f0a002f
+int layout mall_union_jingdong_main 0x7f0a002f
 int layout more_select_item 0x7f0a0030
 int layout neterror_layout 0x7f0a0031
 int layout notification_action 0x7f0a0032

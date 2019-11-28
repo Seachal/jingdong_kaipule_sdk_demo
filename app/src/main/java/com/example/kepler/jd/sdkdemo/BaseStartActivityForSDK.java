@@ -1,15 +1,11 @@
 package com.example.kepler.jd.sdkdemo;
 
-import android.Manifest;
 import android.app.Activity;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.annotation.NonNull;
-import android.support.v4.app.ActivityCompat;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
@@ -574,6 +570,8 @@ public class BaseStartActivityForSDK extends Activity implements OnClickListener
             case R.id.url_to: {// 打开任意页面
 
                 EditText d = (EditText) findViewById(R.id.url_edit);
+                d.setText("https://union-click.jd.com/jdc?e=&p=AyIGZRtaFAUbBFcSXBYyFwdQGVsUBREEVhxrUV1KWQorAlBHU0VeBUVOWk1RAk8ECllHGAdFBwtaV1MJBAJQXk8JF0EfGQcSAlcbWhIBEQRSDBsZdXtzPGwSdkZlBS14LEx9RXE8QiJ2W3FbIRk7cnthQVxsMk9hZnQcXiwXakFwIXAfdnBmYjV4MFV1WnMNbAJmQmR%2BPXwidgJFYB18JHV2YkUCTTBecRN0EXtZYVFyZFVbLHd9YGcMbAd2AGZUIng8V2FrdzFvOHJCZn4qayJmaU1%2FLG89YnFtRyFyP3V7cGdBGS4lQlRCVGUEQXB3YxFgG0ZSdV8HBTpcRB4LZRtTFwcWBl0dWBUyEgZUG1IdAxMGUitbFgAXA1IdaxUHIkY7G1ISCxUHZRprFQYUAlYbXRwKFwFUHWsVChU3JX4ld3tq0%2Bq1j4mjxo7lK2slASI3ZRtYJQIiWBFGBiUAEwZXGQ%3D%3D");
+//                 d.setText("https://u.jd.com/3apcAG");
                 String info = d.getEditableText().toString();
                 if (TextUtils.isEmpty(info)) {
                     return;
@@ -594,6 +592,8 @@ public class BaseStartActivityForSDK extends Activity implements OnClickListener
             case R.id.url_to_app: {// 打开任意页面
 
                 EditText d = (EditText) findViewById(R.id.url_edit);
+                d.setText("https://union-click.jd.com/jdc?e=&p=AyIGZRtaFAUbBFcSXBYyFwdQGVsUBREEVhxrUV1KWQorAlBHU0VeBUVOWk1RAk8ECllHGAdFBwtaV1MJBAJQXk8JF0EfGQcSAlcbWhIBEQRSDBsZdXtzPGwSdkZlBS14LEx9RXE8QiJ2W3FbIRk7cnthQVxsMk9hZnQcXiwXakFwIXAfdnBmYjV4MFV1WnMNbAJmQmR%2BPXwidgJFYB18JHV2YkUCTTBecRN0EXtZYVFyZFVbLHd9YGcMbAd2AGZUIng8V2FrdzFvOHJCZn4qayJmaU1%2FLG89YnFtRyFyP3V7cGdBGS4lQlRCVGUEQXB3YxFgG0ZSdV8HBTpcRB4LZRtTFwcWBl0dWBUyEgZUG1IdAxMGUitbFgAXA1IdaxUHIkY7G1ISCxUHZRprFQYUAlYbXRwKFwFUHWsVChU3JX4ld3tq0%2Bq1j4mjxo7lK2slASI3ZRtYJQIiWBFGBiUAEwZXGQ%3D%3D");
+//                 d.setText("https://u.jd.com/3apcAG");
                 String info = d.getEditableText().toString();
                 if (TextUtils.isEmpty(info)) {
                     return;
@@ -617,6 +617,9 @@ public class BaseStartActivityForSDK extends Activity implements OnClickListener
             case R.id.url_to_web: {
 
                 EditText d = (EditText) findViewById(R.id.url_edit);
+                d.setText("https://union-click.jd.com/jdc?e=&p=AyIGZRtaFAUbBFcSXBYyFwdQGVsUBREEVhxrUV1KWQorAlBHU0VeBUVOWk1RAk8ECllHGAdFBwtaV1MJBAJQXk8JF0EfGQcSAlcbWhIBEQRSDBsZdXtzPGwSdkZlBS14LEx9RXE8QiJ2W3FbIRk7cnthQVxsMk9hZnQcXiwXakFwIXAfdnBmYjV4MFV1WnMNbAJmQmR%2BPXwidgJFYB18JHV2YkUCTTBecRN0EXtZYVFyZFVbLHd9YGcMbAd2AGZUIng8V2FrdzFvOHJCZn4qayJmaU1%2FLG89YnFtRyFyP3V7cGdBGS4lQlRCVGUEQXB3YxFgG0ZSdV8HBTpcRB4LZRtTFwcWBl0dWBUyEgZUG1IdAxMGUitbFgAXA1IdaxUHIkY7G1ISCxUHZRprFQYUAlYbXRwKFwFUHWsVChU3JX4ld3tq0%2Bq1j4mjxo7lK2slASI3ZRtYJQIiWBFGBiUAEwZXGQ%3D%3D");
+
+                //                 d.setText("https://u.jd.com/3apcAG");
                 String info = d.getEditableText().toString();
                 if (TextUtils.isEmpty(info)) {
                     return;
@@ -923,7 +926,7 @@ public class BaseStartActivityForSDK extends Activity implements OnClickListener
         super.onCreate(savedInstanceState);
         mContext = this;
         mHandler = new Handler();
-        setContentView(R.layout.main);
+        setContentView(R.layout.mall_union_jingdong_main);
 
         showJarInfo();// for 开普勒SDK开发 检查SDKjar引用
 
@@ -1080,3 +1083,14 @@ public class BaseStartActivityForSDK extends Activity implements OnClickListener
         show_jar_time_for_dev.setText(sb.toString());
     }
 }
+
+/**
+ * 京东  优惠券链接
+ *
+ * ## 京东开普勒
+ *
+ * 长链接”clickURL”: “https://union-click.jd.com/jdc?e=&p=AyIGZRtaFAUbBFcSXBYyFwdQGVsUBREEVhxrUV1KWQorAlBHU0VeBUVOWk1RAk8ECllHGAdFBwtaV1MJBAJQXk8JF0EfGQcSAlcbWhIBEQRSDBsZdXtzPGwSdkZlBS14LEx9RXE8QiJ2W3FbIRk7cnthQVxsMk9hZnQcXiwXakFwIXAfdnBmYjV4MFV1WnMNbAJmQmR%2BPXwidgJFYB18JHV2YkUCTTBecRN0EXtZYVFyZFVbLHd9YGcMbAd2AGZUIng8V2FrdzFvOHJCZn4qayJmaU1%2FLG89YnFtRyFyP3V7cGdBGS4lQlRCVGUEQXB3YxFgG0ZSdV8HBTpcRB4LZRtTFwcWBl0dWBUyEgZUG1IdAxMGUitbFgAXA1IdaxUHIkY7G1ISCxUHZRprFQYUAlYbXRwKFwFUHWsVChU3JX4ld3tq0%2Bq1j4mjxo7lK2slASI3ZRtYJQIiWBFGBiUAEwZXGQ%3D%3D”,
+ *
+ *
+ * 短连接"shortURL": "https://u.jd.com/3apcAG"
+ */

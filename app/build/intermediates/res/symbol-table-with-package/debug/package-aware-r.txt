@@ -1122,7 +1122,7 @@ layout dialogloading
 layout item_tab_layout
 layout kepler_mid_lin
 layout kepler_simple_dialog_lay
-layout main
+layout mall_union_jingdong_main
 layout more_select_item
 layout neterror_layout
 layout notification_action

@@ -3448,7 +3448,7 @@ public final class R {
     public static final int item_tab_layout=0x7f0a002c;
     public static final int kepler_mid_lin=0x7f0a002d;
     public static final int kepler_simple_dialog_lay=0x7f0a002e;
-    public static final int main=0x7f0a002f;
+    public static final int mall_union_jingdong_main=0x7f0a002f;
     public static final int more_select_item=0x7f0a0030;
     public static final int neterror_layout=0x7f0a0031;
     public static final int notification_action=0x7f0a0032;

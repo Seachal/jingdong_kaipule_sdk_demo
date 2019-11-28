@@ -33,7 +33,7 @@ public class BaseApplication extends Application {
 
 	@Override
 	public void onCreate() {
-		Log.e("kepler", "app pro on  creat");
+		Log.i("kepler", "app pro on  creat");
 		super.onCreate();
 		Log.e("kepler", "app pro:" + getCurProcessName(this) + "  "
 				+ getApplicationContext());
