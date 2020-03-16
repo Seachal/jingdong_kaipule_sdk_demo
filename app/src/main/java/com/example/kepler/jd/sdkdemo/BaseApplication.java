@@ -52,7 +52,7 @@ public class BaseApplication extends Application {
 
 		 Log.e("kepler",
 		 "Kepler asyncInitSdk 授权失败，请检查lib 工程资源引用；包名,签名证书是否和注册一致");
-		
+
 		 }
 		 });
 	}

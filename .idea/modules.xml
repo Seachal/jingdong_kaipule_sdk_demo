@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jdsdk_lib/jdsdk_lib.iml" filepath="$PROJECT_DIR$/jdsdk_lib/jdsdk_lib.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jingdongkaipule_SDKDemo_Android.iml" filepath="$PROJECT_DIR$/jingdongkaipule_SDKDemo_Android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="jingdongkaipule_SDKDemo_Android/app" />
+      <module fileurl="file://$PROJECT_DIR$/jdsdk_lib/jdsdk_lib.iml" filepath="$PROJECT_DIR$/jdsdk_lib/jdsdk_lib.iml" group="jingdongkaipule_SDKDemo_Android/jdsdk_lib" />
+      <module fileurl="file://$PROJECT_DIR$/jingdongkaipule_SDKDemo_Android.iml" filepath="$PROJECT_DIR$/jingdongkaipule_SDKDemo_Android.iml" group="jingdongkaipule_SDKDemo_Android" />
     </modules>
   </component>
 </project>
