@@ -83,3 +83,8 @@ lint/outputs/
 lint/tmp/
 # lint/reports/
 
+
+/jdsdk_lib/build/
+/app/build/
+/.gradle/
+/.idea/
