@@ -567,6 +567,7 @@ public class BaseStartActivityForSDK extends Activity implements OnClickListener
 //		}
 //			break;
 
+//            跳转到开普勒
             case R.id.url_to: {// 打开任意页面
 
                 EditText d = (EditText) findViewById(R.id.url_edit);
@@ -588,7 +589,7 @@ public class BaseStartActivityForSDK extends Activity implements OnClickListener
                 }
             }
             break;
-
+////         跳转到 app
             case R.id.url_to_app: {// 打开任意页面
 
                 EditText d = (EditText) findViewById(R.id.url_edit);
@@ -613,7 +614,7 @@ public class BaseStartActivityForSDK extends Activity implements OnClickListener
                 }
             }
             break;
-
+//以 web 的形式打开。
             case R.id.url_to_web: {
 
                 EditText d = (EditText) findViewById(R.id.url_edit);
@@ -1029,7 +1030,7 @@ public class BaseStartActivityForSDK extends Activity implements OnClickListener
         KeplerApiManager.getWebViewService().checkLoginState(new ActionCallBck() {
             @Override
             public boolean onDateCall(int key, String info) {
-                mHandler.post(new Runnable() {
+                 mHandler.post(new Runnable() {
                     @Override
                     public void run() {
                         login_lin.setVisibility(View.VISIBLE);
